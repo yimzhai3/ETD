@@ -28,15 +28,15 @@ OfficeHome (Dataset)
 |- UV_code
 ```
 ## Usage
-* Download the `OfficeHome` dataset from Google Drive.
+* Download the `OfficeHome` dataset from [Google Drive](https://drive.google.com/open?id=1amUrjcOaAAfuiKzwi5fbJXweMEi8b0Jj).
 * Set experiment configures in a csv file.
   * It is `UV.csv` in this code.
-  * The csv includes: epochs, Pretrain_Epoch, train_batch_size, lr	lr_feature, lr_fc, beta1, beta2, lambda_1, lambda_2, source_domain, target_domain, class_num, resnet_name, fc_in_features, bottleneck_dim, dropout_p, and network_name.
-  * An example is as following:
-  ![](https://github.com/yimzhai3/ETD/pictures/configures.png)  
+  * The csv file includes: epochs, Pretrain_Epoch, train_batch_size, lr	lr_feature, lr_fc, beta1, beta2, lambda_1, lambda_2, source_domain, target_domain, class_num, resnet_name, fc_in_features, bottleneck_dim, dropout_p, and network_name.
+  * An example is shown as following (configures in this figure may not be the best choices and this figure is just to explain the configure file more clear):
+  ![](https://github.com/yimzhai3/ETD/raw/master/pictures/configures.png)  
   
 * Set saving path.
-  * The saving path is `./UV_code/UV` in this code and the corresponding code is as following:
+  * The saving path is `./UV_code/UV` in this code and the corresponding code is shown as following:
   
   ```
    file_path = '.'+os.path.sep+'UV' 
@@ -48,7 +48,7 @@ OfficeHome (Dataset)
   ```
  * Training with `main.py`.
  * The loss, acc, best acc and best model can be found in `./UV_code/UV/test1`(in this code). 
-# Note
+## Note
 This code is correspongding to the dual formulation of the reweighed OT problem. And we will introduce the semi-dual version later. 
 ## Citation
 ```
