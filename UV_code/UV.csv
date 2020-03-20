@@ -1,0 +1,13 @@
+experiment_name,epochs,Pretrain_Epoch,train_batch_size,lr,lr_feature,lr_fc,beta1,beta2,lambda_1,lambda_2,source_domain,target_domain,class_num,resnet_name,fc_in_features,bottleneck_dim,dropout_p,network_name
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Art,Clipart,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Art,Product,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Art,Real World,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Clipart,Art,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Clipart,Product,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Clipart,Real World,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Product,Art,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Product,Clipart,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Product,Real World,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Real World,Art,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Real World,Clipart,65,ResNet50,2048,512,0,resnet
+Test_1,20,10,32,0.0003,0.000002,0.0003,0.9,0.999,0.1,0.5,Real World,Product,65,ResNet50,2048,512,0,resnet
