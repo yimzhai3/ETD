@@ -32,7 +32,9 @@ OfficeHome (Dataset)
 * Set experiment configures in a csv file.
   * It is `UV.csv` in this code.
   * The csv includes: epochs, Pretrain_Epoch, train_batch_size, lr	lr_feature, lr_fc, beta1, beta2, lambda_1, lambda_2, source_domain, target_domain, class_num, resnet_name, fc_in_features, bottleneck_dim, dropout_p, and network_name.
-  * An example
+  * An example is as following:
+  ![](https://github.com/yimzhai3/ETD/pictures/configures.png)  
+  
 * Set saving path.
   * The saving path is `./UV_code/UV` in this code and the corresponding code is as following:
   
